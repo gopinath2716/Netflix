@@ -1,8 +1,8 @@
 // import axios from "axios";
 import React, { useEffect, useState } from "react";
-import "./css/banner.css";
-import userrequests from "./Request";
-import axios from "./localaxios"
+import "../../css/banner.css";
+import userrequests from "../../Request";
+import axios from "../../localaxios"
 
 function Banner() {
   const [movie, setMovie] = useState([]);

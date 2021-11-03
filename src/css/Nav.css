@@ -1,32 +1,49 @@
-.nav{
-    position: fixed;
-    top:0;
-    padding: 20px;
-    height: 50px;
-    width: 100%;
-    z-index: 1;
-    box-sizing: border-box;
-    transition: all 0.5s ease-in 0s;
+.nav {
+  position: fixed;
+  top: 0;
+  padding: 20px;
+  height: 50px;
+  width: 100%;
+  z-index: 1;
+  box-sizing: border-box;
+  transition: all 0.5s ease-in 0s;
 }
-.nav__content{
-    display: flex;
-    justify-content: space-between;
+.nav__content {
+  display: flex;
+  justify-content: space-between;
 }
-.nav__content .logo{
-    width: 80px;
-    position:fixed;
-    cursor: pointer;
-    top: 5px;
-    left: 20px;
-    /* bottom: 10PX; */
+.nav__content .logo {
+  width: 80px;
+  position: fixed;
+  cursor: pointer;
+  top: 5px;
+  left: 20px;
+  /* bottom: 10PX; */
 }
-.nav_avatar{
-    width:30px;
-    position:fixed;
-    cursor: pointer;
-    top: 10px;
-    right:20px ;
+.nav_avatar {
+  width: 30px;
+  position: fixed;
+  cursor: pointer;
+  top: 10px;
+  right: 20px;
 }
-.nav__black{
-    background-color: #000;
+.nav__black {
+  background-color: #000;
+}
+.favouriteMovies {
+  background-color: #d42d2d;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
+
+  position: fixed;
+  cursor: pointer;
+  top: 2px;
+
+  right: 70px;
 }
